@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>SoftLine</title>
+</head>
+<body>
+    <nav id="al-primary-navbar" class="al-primary-navbar navbar p-0 navbar-expand-lg flex-column with-motd">
+        <div class="container navbar-3">
+            <a class="navbar-brand" href="/Peach_FrontendDev_test/layouts/index.html">
+                <img src="../images/softline_logo.svg">
+            </a>
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Peach_FrontendDev_test/layouts/index.html">Облачные решения</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Peach_FrontendDev_test/layouts/index.html">Кибербезопасность</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Peach_FrontendDev_test/layouts/index.html">Импортозамещение</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Peach_FrontendDev_test/layouts/index.html">Цифровая трансформация</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="body-container">
+        <section class="page-index">
+            <div class="index-preview">
+                <div class="container al-py-lg" style="background: url(../images/preview_imag.jpg)50%/cover no-repeat;">
+                    <div class="preview_gg">
+                        <div class="preview-item">
+                            <h1>Поставщик услуг цифровой трансформации<br>и кибербезопастности</h1>
+                        </div>
+                        <div class="preview-item">
+                            <a href="../layouts/index.html" class="btn preview-btn">
+                                На сайт
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="index-about">
+                <div class="container al-py-mg">
+                    <div class="conteiner-about">
+                        <div class="about-text">
+                            <div class="container-rg">
+                                <p>
+                                    <span class="bj">Softline</span> – ведущий поставщик IT-решений и сервисов.* Мы предлагаем комплексные IT-решения, облака, программное и аппаратное обеспечение, решения по цифровой трансформации и кибербезопасности, а также широкий спектр IT-услуг.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-stats">
+                        <div class="item-stats">
+                            <div class="item-stats-text">
+                                <p><span class="nk">></span> 30 лет</p>
+                                <span class="small text-uppercase mb-1">на IT-рынке</span>
+                            </div>
+                        </div>
+                        <div class="item-stats">
+                            <div class="item-stats-text">
+                                <p>4600</p>
+                                <span class="small text-uppercase mb-1">сотрудников в России</span>
+                            </div>
+                        </div>
+                        <div class="item-stats">
+                            <div class="item-stats-text">
+                                <p>25</p>
+                                <span class="small text-uppercase mb-1">городов России</span>
+                            </div>
+                        </div>
+                        <div class="item-stats">
+                            <div class="item-stats-text">
+                                <p>2000 <span class="nk">+</span></p>
+                                <span class="small text-uppercase mb-1">разработчиков</span>
+                            </div>
+                        </div>
+                        <div class="item-stats">
+                            <div class="item-stats-text">
+                                <p>3000 <span class="nk">+</span></p>
+                                <span class="small text-uppercase mb-1">сотрудников ежегодно проходят оцентку и обучение</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="index-map">
+                <div class="container al-py-vg">
+                    <div class="container-tabs-menu">
+                        <div class="tabs-menu">
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="btn dropbtn">Офисы Softline
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                            </div>
+                            <div class="tab">
+                                <div class="item-sitys">
+                                    <button class="btn tablinks" onclick="openCity(event, 'All')" id="defaultOpen">Все</button>
+                                </div>
+                                <div class="item-sitys">
+                                    <button class="btn tablinks" onclick="openCity(event, 'Moscow')">Москва</button>
+                                </div>
+                                <div class="item-sitys">
+                                    <button class="btn tablinks" onclick="openCity(event, 'Center')">Центр</button>
+                                </div>
+                                <div class="item-sitys">
+                                    <button class="btn tablinks" onclick="openCity(event, 'Northwest')">Северо-Запад</button>
+                                </div>
+                                <div class="item-sitys">
+                                    <button class="btn tablinks" onclick="openCity(event, 'South')">Юг</button>
+                                </div>
+                                <div class="item-sitys">
+                                    <button class="btn tablinks" onclick="openCity(event, 'Volga')">Волга</button>
+                                </div>
+                                <div class="item-sitys">
+                                    <button class="btn tablinks" onclick="openCity(event, 'Ural')">Урал</button>
+                                </div>
+                                <div class="item-sitys">
+                                    <button class="btn tablinks" onclick="openCity(event, 'Siber')">Сибирь</button>
+                                </div>
+                                <div class="item-sitys">
+                                    <button class="btn tablinks" onclick="openCity(event, 'FarEast')">Дальний восток</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="myDropdown" class="dropdown-content">
+                            <div class="content-column">
+                                <div class="column">
+                                    <a href="#"><b>Москва</b></a>
+                                </div>
+                                <div class="column">
+                                    <a href="#"><b>Центр</b></a>
+                                    <a href="#">Воронеж</a>
+                                    <a href="#">Ярославль</a>
+                                    <a href="#">Белгород</a>
+                                </div>
+                                <div class="column">
+                                    <a href="#"><b>Северо-Запад</b></a>
+                                    <a href="#">Санкт-Петербург</a>
+                                    <a href="#">Калининград</a>
+                                </div>
+                                <div class="column">
+                                    <a href="#"><b>Юг</b></a>
+                                    <a href="#">Ростов-на-Дону</a>
+                                    <a href="#">Краснодар</a>
+                                    <a href="#">Волгоград</a>
+                                </div>
+                                <div class="column">
+                                    <a href="#"><b>Волга</b></a>
+                                    <a href="#">Казань</a>
+                                    <a href="#">Самара</a>
+                                    <a href="#">Уфа</a>
+                                    <a href="#">Оренбург</a>
+                                    <a href="#">Нижний Новгород</a>
+                                </div>
+                                <div class="column">
+                                    <a href="#"><b>Урал</b></a>
+                                    <a href="#">Екатеринбург</a>
+                                    <a href="#">Челябинск</a>
+                                    <a href="#">Пермь</a>
+                                    <a href="#">Сургут</a>
+                                    <a href="#">Тюмень</a>
+                                    <a href="#">Ижевск</a>
+                                </div>
+                                <div class="column">
+                                    <a href="#"><b>Сибирь</b></a>
+                                    <a href="#">Новосибирск</a>
+                                    <a href="#">Омск</a>
+                                    <a href="#">Томск</a>
+                                    <a href="#">Красноярск</a>
+                                    <a href="#">Иркутск</a>
+                                </div>
+                                <div class="column">
+                                    <a href="#"><b>Дальний Восток</b></a>
+                                    <a href="#">Хабаровск</a>
+                                    <a href="#">Владивосток</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="All" class="tabcontent">
+                            <img src="../images/map_all.jpg">
+                        </div>
+                        <div id="Moscow" class="tabcontent">
+                            <img src="../images/map_moscow.jpg">
+                        </div>
+                        <div id="Center" class="tabcontent">
+                            <img src="../images/map_center.jpg">
+                        </div>
+                        <div id="Northwest" class="tabcontent">
+                            <img src="../images/map_northwest.jpg">
+                        </div>
+                        <div id="South" class="tabcontent">
+                            <img src="../images/map_south.jpg">
+                        </div>
+                        <div id="Volga" class="tabcontent">
+                            <img src="../images/map_volga.jpg">
+                        </div>
+                        <div id="Ural" class="tabcontent">
+                            <img src="../images/map_ural.jpg">
+                        </div>
+                        <div id="Siber" class="tabcontent">
+                            <img src="../images/map_siber.jpg">
+                        </div>
+                        <div id="FarEast" class="tabcontent">
+                            <img src="../images/map_fareast.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="index-mission">
+                <div class="container al-py-cg">
+                    <div class="container-pattern">
+                        <div class="item-pattern">
+                            <img src="../images/Left_pattern_mission.png">
+                        </div>
+                        <div class="item-pattern">
+                            <img src="../images/Right_pattern_mission.png">
+                        </div>
+                    </div>
+                    <div class="pattern-text">
+                        <h1>Миссия Softline</h1>
+                        <span class="small text-uppercase mb-1">Мы помогаем организациям трансформироваться, работать эффективно и безопасно в условиях цифровой экономики.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="index-directions">
+                <div class="container al-directions">
+                    <div class="directions-business">
+                        <div class="text-business">
+                            <h1>Направление Бизнеса</h1>
+                        </div>
+                        <div class="image-business">
+                            <div class="bs-gate">
+                                <div class="item-business">
+                                    <img src="../images/solutions_image.jpg">
+                                    <div class="businesscontent" id="solutionstext">
+                                        <span class="br">Решения Softline</span>
+                                        <span class="st">ГК Softline предлагает клиентам собственную линейку оборудования (ПК, серверы, торговое оборудование и проч.), разработку программных продуктов, облачных решений, решений в области информационной безопасности.</span>
+                                    </div>
+                                    <div class="dropup" id="solutionsbtn">
+                                        <button onclick="dropupFunction(event, 'solutionstext', 'solutionsbtn')" class="btn dropupbtn">Решения Softline
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bs-gate">
+                                <div class="item-business">
+                                    <img src="../images/cybersecurity_image.jpg">
+                                    <div class="businesscontent" id="cybersecuritytext">
+                                        <span class="br">Кибербезопасность</span>
+                                        <span class="st">Softline обладает всеми необходимыми государственными лицензиями для организации проектов по информационной безопасности и аттестации. </span>
+                                    </div>
+                                    <div class="dropup" id="cybersecuritybtn">
+                                        <button onclick="dropupFunction(event, 'cybersecuritytext', 'cybersecuritybtn')" class="btn dropupbtn">Кибербезопасность
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bs-gate">
+                                <div class="item-business">
+                                    <img src="../images/import_image.jpg">
+                                    <div class="businesscontent" id="importtext">
+                                        <span class="br">Импортозамещение</span>
+                                        <span class="st">ГК Softline обладает широчайшим портфелем решений и услуг для импортозамещения, включая ПО и оборудование собственного производства.</span>
+                                    </div>
+                                    <div class="dropup" id="importbtn">
+                                        <button onclick="dropupFunction(event, 'importtext', 'importbtn')" class="btn dropupbtn">Импортозамещение
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bs-gate">
+                                <div class="item-business">
+                                    <img src="../images/cloud_image.jpg">
+                                    <div class="businesscontent" id="cloudtext">
+                                        <span class="br">Облачные решения</span>
+                                        <span class="st">Softline использует современные облачные решения как российских, так и международных вендоров для масштабирования бизнеса своих клиентов. Подписки, услуги, трансформация.</span>
+                                    </div>
+                                    <div class="dropup" id="cloudbtn">
+                                        <button onclick="dropupFunction(event, 'cloudtext', 'cloudbtn')" class="btn dropupbtn">Облачные решения
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bs-gate">
+                                <div class="item-business">
+                                    <img src="../images/software_image.jpg">
+                                    <div class="businesscontent" id="softwaretext">
+                                        <span class="br">Цифровая трансформация и разработка ПО</span>
+                                        <span class="st">Softline использует современные технологи и новые возможности для увеличения производительности бизнеса заказчика. В штате ГК Softline - 2000+ разработчиков, которые трансформируют ПО под нужды конкретного предприятия.</span>
+                                    </div>
+                                    <div class="dropup" id="softwarebtn">
+                                        <button onclick="dropupFunction(event, 'softwaretext', 'softwarebtn')" class="btn dropupbtn">Цифровая трансформация и разработка ПО
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bs-gate">
+                                <div class="item-business">
+                                    <img src="../images/support_image.jpg">
+                                    <div class="businesscontent" id="supporttext">
+                                        <span class="br">Техническая поддержка Softline</span>
+                                        <span class="st">200+ инженеров, 24 часа в сутки, 7 дней в неделю, 12 месяцев в году, сервисное партнерство с 30+ мировыми производителями.</span>
+                                    </div>
+                                    <div class="dropup" id="supportbtn">
+                                        <button onclick="dropupFunction(event, 'supporttext', 'supportbtn')" class="btn dropupbtn">Техническая поддержка Softline
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="index-bonuses">
+                <div class="container al-py-mg">
+                    <div class="container-bonuses">
+                        <div class="compensation border-bottom">
+                            <h1>Компенсационный пакет</h1>
+                            <div class="compensation-images">
+                                <div class="item-compensation">
+                                    <div class="item-images">
+                                        <span class="item-circle">
+                                            <img src="../images/dms_image.png">
+                                        </span>
+                                        <span>Name Name</span>
+                                    </div>
+                                </div>
+                                <div class="item-compensation">
+                                    <div class="item-images">
+                                        <span class="item-circle">
+                                            <img src="../images/dms_image.png">
+                                        </span>
+                                        <span>Name Name</span>
+                                    </div>
+                                </div>
+                                <div class="item-compensation">
+                                    <div class="item-images">
+                                        <span class="item-circle">
+                                            <img src="../images/dms_image.png">
+                                        </span>
+                                        <span>Name Name</span>
+                                    </div>
+                                </div>
+                                <div class="item-compensation">
+                                    <div class="item-images">
+                                        <span class="item-circle">
+                                            <img src="../images/dms_image.png">
+                                        </span>
+                                        <span>Name Name</span>
+                                    </div>
+                                </div>
+                                <div class="item-compensation">
+                                    <div class="item-images">
+                                        <span class="item-circle">
+                                            <img src="../images/dms_image.png">
+                                        </span>
+                                        <span>Name Name</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="motivation">
+                            <h2>Программа дополнительной мотивации<br>доплата 12% от суммы</h2>
+                            <div class="compensation-images">
+                                <div class="item-compensation">
+                                    <div class="item-images">
+                                        <span class="item-circle">
+                                            <img src="../images/dms_image.png">
+                                        </span>
+                                        <span>Name Name</span>
+                                    </div>
+                                </div>
+                                <div class="item-compensation">
+                                    <div class="item-images">
+                                        <span class="item-circle">
+                                            <img src="../images/dms_image.png">
+                                        </span>
+                                        <span>Name Name</span>
+                                    </div>
+                                </div>
+                                <div class="item-compensation">
+                                    <div class="item-images">
+                                        <span class="item-circle">
+                                            <img src="../images/dms_image.png">
+                                        </span>
+                                        <span>Name Name</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="index-corpLife">
+                <div class="container al-py-mg">
+                    <div class="container-life">
+                        <h1>Корпоративная жизнь</h1>
+                        <div class="circle-btn">
+                            <span class="item-btn">
+                                <button onclick="backFunction()" id="backbtn" class="btn backbtn"></button>
+                            </span>
+                            <span class="item-btn">
+                                <button onclick="nextFunction()" id="nextbtn" class="btn nextbtn"></button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="container-lifefoto">
+                        <img id="img">
+                    </div>
+                    <div class="container-status">
+                        <div class="item-status">
+                            <button onclick="backFunction(event)" id="line1btn" class="linebtn active"></button>
+                        </div>
+                        <div class="item-status">
+                            <button onclick="backFunction(event)" id="line2btn" class="linebtn"></button>
+                        </div>
+                        <div class="item-status">
+                            <button onclick="backFunction(event)" id="line3btn" class="linebtn"></button>
+                        </div>
+                        <div class="item-status">
+                            <button onclick="backFunction(event)" id="line4btn" class="linebtn"></button>
+                        </div>
+                        <div class="item-status">
+                            <button onclick="backFunction(event)" id="line5btn" class="linebtn"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+<script>
+function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+
+
+<script>
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+
+<script>
+function dropupFunction(evt, TextName, BtnName) {
+  // Declare all variables
+  var i, businesscontent, dropupbtn;
+
+  // Get all elements with class="businesscontent" and hide them
+  businesscontent = document.getElementsByClassName("businesscontent");
+  for (i = 0; i < businesscontent.length; i++) {
+    businesscontent[i].style.display = "none";
+  }
+
+  dropup = document.getElementsByClassName("dropup");
+  for (i = 0; i < dropup.length; i++) {
+    dropup[i].style.display = "block";
+  }
+
+  dropup = document.getElementsByClassName("dropup");
+  for (i = 0; i < dropup.length; i++) {
+    dropup[i].style.position = "relative";
+  }
+
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(TextName).style.display = "flex";
+  document.getElementById(BtnName).style.display = "none";
+}
+</script>
+<script>
+function backFunction(ent) {
+    var i, linebtn;
+    linebtn = document.getElementsByClassName("linebtn");
+    for (i = 0; i < linebtn.length; i++) {
+        linebtn[i].className = linebtn[i].className.replace(" active", "");
+    }
+    ent.currentTarget.className += " active";
+}
+</script>
+<script>
+    const imageList = [
+  '../images/Слайд1.jpg',
+  '../images/Слайд2.jpg',
+  '../images/Слайд3.jpg',
+  '../images/Слайд4.jpg',
+  '../images/Слайд5.jpg',
+  ]
+    const img = document.getElementById('img')
+    const next = document.getElementById('nextbtn')
+    const back = document.getElementById('backbtn')
+    const line1btn = document.getElementById('line1btn')
+    const line2btn = document.getElementById('line2btn')
+    const line3btn = document.getElementById('line3btn')
+    const line4btn = document.getElementById('line4btn')
+    const line5btn = document.getElementById('line5btn')
+    var numImage = 0
+    img.src = imageList[numImage]
+
+    line1btn.addEventListener('click', () => {
+    numImage = 0
+    console.log(numImage >= imageList.length)
+    console.log(numImage)
+    img.src = imageList[numImage]
+    })
+    line2btn.addEventListener('click', () => {
+    numImage = 1
+    console.log(numImage >= imageList.length)
+    console.log(numImage)
+    img.src = imageList[numImage]
+    })
+    line3btn.addEventListener('click', () => {
+    numImage = 2
+    console.log(numImage >= imageList.length)
+    console.log(numImage)
+    img.src = imageList[numImage]
+    })
+    line4btn.addEventListener('click', () => {
+    numImage = 3
+    console.log(numImage >= imageList.length)
+    console.log(numImage)
+    img.src = imageList[numImage]
+    })
+    line5btn.addEventListener('click', () => {
+    numImage = 4
+    console.log(numImage >= imageList.length)
+    console.log(numImage)
+    img.src = imageList[numImage]
+    })
+
+    next.addEventListener('click', () => {
+    numImage++
+    if (numImage >= imageList.length) {
+        numImage = 0
+    }
+    console.log(numImage >= imageList.length)
+    console.log(numImage)
+    img.src = imageList[numImage]
+    if (numImage == 0) {
+        line1btn.className += " active";
+    } else if (numImage == 1) {
+        line2btn.className += " active";
+    } else if (numImage == 2) {
+        line3btn.className += " active";
+    } else if (numImage == 3) {
+        line4btn.className += " active";
+    } else if (numImage == 4) {
+        line5btn.className += " active";
+    }
+    })
+
+    back.addEventListener('click', () => {
+    numImage--
+    if (numImage < 0) {
+        numImage = 4
+    }
+    console.log(numImage < imageList.length)
+    console.log(numImage)
+    img.src = imageList[numImage]
+    if (numImage == 0) {
+        line1btn.className += " active";
+    } else if (numImage == 1) {
+        line2btn.className += " active";
+    } else if (numImage == 2) {
+        line3btn.className += " active";
+    } else if (numImage == 3) {
+        line4btn.className += " active";
+    } else if (numImage == 4) {
+        line5btn.className += " active";
+    }
+    })
+</script>
+
+<script>
+    /* Когда пользователь нажимает на кнопку,
+переключение между скрытием и отображением раскрывающегося содержимого */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Закройте выпадающее меню, если пользователь щелкает за его пределами
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
