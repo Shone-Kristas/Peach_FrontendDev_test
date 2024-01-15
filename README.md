@@ -1,1 +1,1 @@
-![img](/Peach_FrontendDev_test/images/screen_pages.png)
+![img](/images/screen_pages.png)
